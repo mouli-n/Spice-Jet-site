@@ -1,0 +1,30 @@
+const lightPalette = {
+	type: 'light',
+	primary: {
+		main: '#1565c0' // Blue
+	},
+	secondary: {
+		main: '#253148' // Dark Blue
+	},
+	info: {
+		main: '#2f80ed' // Sky Blue
+	},
+	success: {
+		main: '#10bc55' // Green
+	},
+	warning: {
+		main: '#e2b93b' // Yellow
+	},
+	error: {
+		main: '#eb5757' // Red
+	},
+	gray: {
+		main: '#e1e1e3',
+		light: '#f9f9f9',
+		dark: '#787885'
+	},
+	contrastThreshold: 3,
+	tonalOffset: 0.25
+}
+
+export default lightPalette
